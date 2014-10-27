@@ -1,0 +1,10 @@
+language: ruby
+
+ruby:
+ - 1.9.3
+
+before_script:
+ - echo "running before script"
+
+script: echo "this is my test"
+
