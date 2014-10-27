@@ -6,5 +6,5 @@ ruby:
 before_script:
  - echo "running before script"
 
-script: echo "this is my test"
+script: ruby test.rb 
 
